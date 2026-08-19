@@ -1,0 +1,8 @@
+await addDoc(
+ collection(db,"agua"),
+ {
+   usuario,
+   litros,
+   data:new Date()
+ }
+);

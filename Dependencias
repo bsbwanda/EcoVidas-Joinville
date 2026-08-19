@@ -1,0 +1,9 @@
+npm install firebase
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npm install react-native-screens
+npm install react-native-safe-area-context
+npm install react-native-maps
+npm install expo-notifications
+npm install react-native-chart-kit
+npm install react-native-svg

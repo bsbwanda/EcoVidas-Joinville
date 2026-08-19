@@ -1,0 +1,18 @@
+const desafios = [
+  {
+    id:1,
+    titulo:"Recicle 5kg",
+    pontos:100
+  },
+  {
+    id:2,
+    titulo:"Economize 50L de água",
+    pontos:80
+  },
+  {
+    id:3,
+    titulo:"Reduza 10kWh",
+    pontos:120
+  }
+];
+``

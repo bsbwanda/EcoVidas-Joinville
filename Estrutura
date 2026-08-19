@@ -1,0 +1,24 @@
+EcoVidasJoinville/
+│
+├── src/
+│   ├── screens/
+│   │   ├── LoginScreen.js
+│   │   ├── RegisterScreen.js
+│   │   ├── HomeScreen.js
+│   │   ├── ProfileScreen.js
+│   │   ├── RecyclingScreen.js
+│   │   ├── WaterScreen.js
+│   │   ├── EnergyScreen.js
+│   │   ├── RankingScreen.js
+│   │   └── ChallengesScreen.js
+│   │
+│   ├── services/
+│   │   ├── firebase.js
+│   │   └── auth.js
+│   │
+│   ├── components/
+│   └── navigation/
+│
+├── App.js
+├── package.json
+└── README.md

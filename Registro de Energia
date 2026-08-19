@@ -1,0 +1,8 @@
+await addDoc(
+ collection(db,"energia"),
+ {
+   usuario,
+   kwh,
+   data:new Date()
+ }
+);

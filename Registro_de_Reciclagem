@@ -1,0 +1,25 @@
+import {
+ addDoc,
+ collection
+} from "firebase/firestore";
+
+import { db } from "../services/firebase";
+
+export const registrarReciclagem = async(
+ usuario,
+ material,
+ peso
+)=>{
+
+ await addDoc(
+   collection(db,"reciclagem"),
+   {
+      usuario,
+      material,
+      peso,
+      pontos: peso * 5,
+      data: new Date()
+   }
+ );
+
+};

@@ -1,0 +1,13 @@
+const calcularPontos = (
+ reciclagemKg,
+ economiaAgua,
+ economiaEnergia
+)=>{
+
+ return (
+   reciclagemKg * 5 +
+   economiaAgua * 0.2 +
+   economiaEnergia * 1
+ );
+
+}

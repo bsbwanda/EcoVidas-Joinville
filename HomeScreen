@@ -1,0 +1,31 @@
+<View>
+
+<Text>
+ Bem-vindo ao EcoVidas Joinville
+</Text>
+
+<Text>
+ Sua pontuação total:
+</Text>
+
+<Text>
+ {pontos}
+</Text>
+
+<Button
+ title="Registrar Reciclagem"
+/>
+
+<Button
+ title="Registrar Água"
+/>
+
+<Button
+ title="Registrar Energia"
+/>
+
+<Button
+ title="Ver Ranking"
+/>
+
+</View>

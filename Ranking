@@ -1,0 +1,14 @@
+import {
+ getDocs,
+ collection,
+ query,
+ orderBy
+} from "firebase/firestore";
+
+const ranking = query(
+ collection(db,"usuarios"),
+ orderBy("pontos","desc")
+);
+
+const resultado =
+ await getDocs(ranking);

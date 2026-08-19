@@ -1,7 +1,14 @@
-EcoVidasJoinville/
+EcoVidasJoinville
 │
-├── src/
-│   ├── screens/
+├── App.js
+├── package.json
+├── app.json
+│
+├── src
+│   ├── navigation
+│   │   └── AppNavigator.js
+│   │
+│   ├── screens
 │   │   ├── LoginScreen.js
 │   │   ├── RegisterScreen.js
 │   │   ├── HomeScreen.js
@@ -10,15 +17,21 @@ EcoVidasJoinville/
 │   │   ├── WaterScreen.js
 │   │   ├── EnergyScreen.js
 │   │   ├── RankingScreen.js
-│   │   └── ChallengesScreen.js
+│   │   ├── ChallengesScreen.js
+│   │   ├── ReportsScreen.js
+│   │   └── CollectionPointsScreen.js
 │   │
-│   ├── services/
+│   ├── services
 │   │   ├── firebase.js
-│   │   └── auth.js
+│   │   ├── authService.js
+│   │   └── databaseService.js
 │   │
-│   ├── components/
-│   └── navigation/
+│   ├── components
+│   │   ├── MenuCard.js
+│   │   ├── ChallengeCard.js
+│   │   └── RankingCard.js
+│   │
+│   └── styles
+│       └── theme.js
 │
-├── App.js
-├── package.json
-└── README.md
+└── assets

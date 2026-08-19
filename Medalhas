@@ -1,0 +1,14 @@
+const medalhas = [
+ {
+   nome:"Bronze",
+   pontos:500
+ },
+ {
+   nome:"Prata",
+   pontos:1500
+ },
+ {
+   nome:"Ouro",
+   pontos:3000
+ }
+];
